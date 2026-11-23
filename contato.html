@@ -1,0 +1,417 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO -->
+    <title>Contato | Seu Nome</title>
+    <meta name="description" content="Entre em contato para projetos, oportunidades e conexões profissionais.">
+
+    <!-- FONTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!--
+        Mantenha aqui o mesmo link de fontes Google Fonts
+        que você já utiliza na Index.
+    -->
+
+    <!-- LUCIDE -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- CSS específico da página -->
+    <link rel="stylesheet" href="css/contato.css">
+</head>
+
+<body>
+
+    <!-- EFEITO DE ILUMINAÇÃO DO MOUSE -->
+    <div class="mouse-glow"></div>
+
+
+    <!-- =====================================================
+         NAVBAR
+    ====================================================== -->
+
+    <header class="navbar">
+        <div class="nav-container">
+
+            <!-- LOGO -->
+            <a href="index.html" class="logo">
+                <span class="logo-symbol">&lt;/&gt;</span>
+                <span>Felipe Ribeiro<span class="accent">.</span></span>
+            </a>
+
+            <!-- LINKS -->
+            <nav class="nav-links" id="navLinks">
+                <a href="index.html" class="nav-link">Início</a>
+                <a href="projetos.html" class="nav-link">Projetos</a>
+                <a href="sobre.html" class="nav-link">Sobre</a>
+                <a href="contato.html" class="nav-link active">Contato</a>
+            </nav>
+
+            <!-- CTA -->
+            <a href="contato.html" class="nav-cta">
+                Vamos conversar
+                <i data-lucide="arrow-up-right"></i>
+            </a>
+
+            <!-- MENU MOBILE -->
+            <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+                <i data-lucide="menu"></i>
+            </button>
+
+        </div>
+    </header>
+
+
+    <!-- =====================================================
+         CONTEÚDO PRINCIPAL
+    ====================================================== -->
+
+    <main class="contact-page section-container">
+
+
+        <!-- INTRODUÇÃO -->
+
+        <section class="contact-intro reveal">
+
+            <span class="section-label">
+                <span class="label-square"></span>
+                CONTATO
+            </span>
+
+            <h1>
+                Vamos tirar uma<br>
+                <span class="accent">ideia do papel?</span>
+            </h1>
+
+            <p class="contact-intro-text">
+                Tem um projeto em mente, uma oportunidade ou simplesmente
+                quer trocar ideias sobre tecnologia? Estou aberto a novas
+                conexões e conversas.
+            </p>
+
+        </section>
+
+
+        <!-- =====================================================
+             ÁREA DE CONTATO
+        ====================================================== -->
+
+        <section class="contact-layout reveal">
+
+
+            <!-- LADO ESQUERDO -->
+
+            <aside class="contact-info">
+
+
+                <!-- STATUS -->
+
+                <div class="availability-card">
+
+                    <div class="availability-indicator">
+                        <span class="availability-dot"></span>
+
+                        <!-- ALTERE O TEXTO CONFORME SUA DISPONIBILIDADE -->
+                        <span>Disponível para oportunidades</span>
+                    </div>
+
+                    <p>
+                        Sempre interessado em conhecer ideias,
+                        projetos e pessoas que buscam construir
+                        algo relevante.
+                    </p>
+
+                </div>
+
+
+                <!-- EMAIL -->
+
+                <div class="contact-method">
+
+                    <span class="contact-method-label">
+                        EMAIL
+                    </span>
+
+                    <a href="LipeRibeiro0509@gmail.com"
+                       class="contact-method-link">
+
+                        <!-- SUBSTITUA PELO SEU EMAIL -->
+                        LipeRibeiro0509@gmail.com
+
+                        <i data-lucide="arrow-up-right"></i>
+                    </a>
+
+                </div>
+
+
+                <!-- GITHUB -->
+
+                <div class="contact-method">
+
+                    <span class="contact-method-label">
+                        GITHUB
+                    </span>
+
+                    <a href="https://github.com/Lip3-Ribeiro"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="contact-method-link">
+
+                        <!-- SUBSTITUA PELO SEU GITHUB -->
+                        https://github.com/Lip3-Ribeiro
+
+                        <i data-lucide="arrow-up-right"></i>
+                    </a>
+
+                </div>
+                <!-- FRASE DECORATIVA -->
+
+                <div class="contact-quote">
+
+                    <span class="quote-symbol">"</span>
+
+                    <p>
+                        Grandes projetos começam com uma simples conversa.
+                    </p>
+
+                    <span class="quote-footer">
+                        LET'S BUILD SOMETHING
+                    </span>
+
+                </div>
+
+            </aside>
+
+
+            <!-- =================================================
+                 FORMULÁRIO
+            ================================================== -->
+
+            <div class="contact-form-card">
+
+
+                <div class="contact-form-header">
+
+                    <div>
+                        <span class="form-eyebrow">
+                            NOVO CONTATO
+                        </span>
+
+                        <h2>Envie uma mensagem</h2>
+                    </div>
+
+                    <div class="form-header-icon">
+                        <i data-lucide="send"></i>
+                    </div>
+
+                </div>
+
+
+                <form id="contactForm">
+
+
+                    <!-- NOME -->
+
+                    <div class="form-group">
+
+                        <label for="contactName">
+                            Seu nome
+                        </label>
+
+                        <input
+                            type="text"
+                            id="contactName"
+                            name="name"
+                            placeholder="Como posso te chamar?"
+                            autocomplete="name"
+                            required
+                            minlength="2"
+                        >
+
+                    </div>
+
+
+                    <!-- EMAIL -->
+
+                    <div class="form-group">
+
+                        <label for="contactEmail">
+                            Seu email
+                        </label>
+
+                        <input
+                            type="email"
+                            id="contactEmail"
+                            name="email"
+                            placeholder="email@exemplo.com"
+                            autocomplete="email"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- ASSUNTO -->
+
+                    <div class="form-group">
+
+                        <label for="contactSubject">
+                            Assunto
+                        </label>
+
+                        <select
+                            id="contactSubject"
+                            name="subject"
+                            required
+                        >
+
+                            <option value="" disabled selected>
+                                Selecione um assunto
+                            </option>
+
+                            <option value="Oportunidade profissional">
+                                Oportunidade profissional
+                            </option>
+
+                            <option value="Desenvolvimento de projeto">
+                                Desenvolvimento de projeto
+                            </option>
+
+                            <option value="Colaboração">
+                                Colaboração
+                            </option>
+
+                            <option value="Outro assunto">
+                                Outro assunto
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <!-- MENSAGEM -->
+
+                    <div class="form-group">
+
+                        <label for="contactMessage">
+                            Mensagem
+                        </label>
+
+                        <textarea
+                            id="contactMessage"
+                            name="message"
+                            rows="5"
+                            placeholder="Conte um pouco sobre o que você tem em mente..."
+                            required
+                            minlength="10"
+                        ></textarea>
+
+                    </div>
+
+
+                    <!-- BOTÃO -->
+
+                    <button type="submit" class="contact-submit">
+
+                        <span>Enviar mensagem</span>
+
+                        <i data-lucide="arrow-up-right"></i>
+
+                    </button>
+
+
+                    <!-- AVISO -->
+
+                    <p class="form-disclaimer">
+                        <i data-lucide="info"></i>
+
+                        Ao enviar, seu aplicativo de email será aberto
+                        com a mensagem preenchida para envio.
+                    </p>
+
+
+                    <!-- FEEDBACK -->
+
+                    <div class="form-feedback" id="formFeedback" aria-live="polite"></div>
+
+
+                </form>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             CHAMADA FINAL
+        ====================================================== -->
+
+        <section class="contact-bottom reveal">
+
+            <span class="contact-bottom-label">
+                FIM DA LINHA? NADA DISSO.
+            </span>
+
+            <h2>
+                O próximo projeto<br>
+                pode começar <span class="accent">aqui.</span>
+            </h2>
+
+            <a href="index.html" class="contact-back-link">
+
+                Voltar ao início
+
+                <i data-lucide="arrow-up-right"></i>
+
+            </a>
+
+        </section>
+
+
+    </main>
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer class="footer">
+
+        <div class="footer-content">
+
+            <a href="index.html" class="nav-logo">
+                <span class="logo-bracket">&lt;</span>
+                Felipe Ribeiro
+                <span class="logo-bracket">/&gt;</span>
+            </a>
+
+            <p>
+                Desenvolvido com propósito.
+            </p>
+
+            <span class="footer-copy">
+                &copy; <span id="currentYear"></span> Seu Nome.
+                Todos os direitos reservados.
+            </span>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JS -->
+    <script src="js/main.js"></script>
+    <script src="js/contato.js"></script>
+
+</body>
+</html>

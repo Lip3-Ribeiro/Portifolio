@@ -1,0 +1,683 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO: substitua pelo seu nome -->
+    <title>Felipe Ribeiro | Desenvolvedor</title>
+    <meta name="description" content="Portfólio profissional de desenvolvimento.">
+
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Ícones Lucide -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Efeito de iluminação que acompanha o mouse -->
+    <div class="mouse-glow"></div>
+
+    <!-- ================= NAVBAR ================= -->
+    <header class="navbar">
+        <div class="nav-container">
+
+            <!-- SUBSTITUA PELAS SUAS INICIAIS OU NOME -->
+            <a href="index.html" class="logo">
+                <span class="logo-symbol">&lt;/&gt;</span>
+                <span>Felipe Ribeiro<span class="accent">.</span></span>
+            </a>
+
+            <nav class="nav-links" id="navLinks">
+                <a href="index.html" class="nav-link active">Início</a>
+                <a href="projetos.html" class="nav-link">Projetos</a>
+                <a href="sobre.html" class="nav-link">Sobre</a>
+                <a href="contato.html" class="nav-link">Contato</a>
+            </nav>
+
+            <a href="contato.html" class="nav-cta">
+                Vamos conversar
+                <i data-lucide="arrow-up-right"></i>
+            </a>
+
+            <!-- Botão menu mobile -->
+            <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+                <i data-lucide="menu"></i>
+            </button>
+
+        </div>
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+    <main>
+
+        <section class="hero section-container">
+
+            <div class="hero-content reveal">
+
+                <div class="availability">
+                    <span class="availability-dot"></span>
+                    <!-- PERSONALIZE SUA DISPONIBILIDADE -->
+                    <span>Disponível para novos projetos</span>
+                </div>
+
+                <!-- PERSONALIZE O TEXTO PRINCIPAL -->
+                <p class="hero-pretitle">
+                    Olá, meu nome é Felipe
+                </p>
+
+                <h1>
+                    Transformando<br>
+                    ideias em
+                    <span class="accent hero-highlight">soluções.</span>
+                </h1>
+
+                <!-- ESCREVA SUA APRESENTAÇÃO -->
+                <p class="hero-description">
+                    Sou um desenvolvedor apaixonado por tecnologia,
+                    criação e inovação. Aqui você encontrará um pouco
+                    da minha trajetória, habilidades e projetos.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="projetos.html" class="btn-primary">
+                        Explorar projetos
+                        <i data-lucide="arrow-up-right"></i>
+                    </a>
+
+                    <a href="sobre.html" class="btn-secondary">
+                        Conheça mais sobre mim
+                    </a>
+                </div>
+            </div>
+
+
+            <!-- ================= FOTO DE PERFIL ================= -->
+            <div class="hero-visual reveal">
+
+                <div class="profile-decoration"></div>
+
+                <div class="profile-card">
+
+                    <!--
+                    ==================================================
+                    FOTO DE PERFIL
+
+                    1. Coloque sua foto na pasta assets/img/
+                    2. Renomeie para minha-foto.png
+                    3. Descomente a tag img abaixo
+                    4. Se quiser, apague o placeholder
+
+                    Exemplo:
+                    <img src="assets/img/minha-foto.png"
+                         alt="Foto de [Seu Nome]"
+                         class="profile-photo">
+                    ==================================================
+                    -->
+
+                    <!-- PLACEHOLDER ENQUANTO SUA FOTO NÃO É ADICIONADA -->
+                    <div class="profile-placeholder">
+                        <i data-lucide="user-round"></i>
+                        <img src="assets/images/minha-foto.jpeg"
+                         alt="Foto de Felipe Ribeiro"
+                         class="profile-photo">
+                        <small>Adicione sua imagem de perfil</small>
+                    </div>
+
+                    <!-- Etiqueta decorativa -->
+                    <div class="floating-tag tag-top">
+                        <i data-lucide="code-2"></i>
+                        <span>Developer</span>
+                    </div>
+
+                </div>
+
+                <div class="visual-caption">
+                    <span>BASEADO EM</span>
+                    <span class="caption-line"></span>
+                    <span>CRIATIVIDADE & TECNOLOGIA</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= MARQUEE / TECNOLOGIAS ================= -->
+        <section class="tech-strip">
+
+            <div class="tech-strip-header">
+                <span>TECNOLOGIAS E FERRAMENTAS</span>
+                <span class="tech-strip-subtitle">TOOLS I WORK WITH</span>
+            </div>
+
+            <div class="tech-track-wrapper">
+                <div class="tech-track">
+
+                    <!-- PERSONALIZE A LISTA COM SUAS TECNOLOGIAS -->
+                    <span class="tech-item">HTML5</span>
+                    <span class="tech-separator">✳</span>
+                    <span class="tech-item">CSS3</span>
+                    <span class="tech-separator">✳</span>
+                    <span class="tech-item">JavaScript</span>
+                    <span class="tech-separator">✳</span>
+                    <span class="tech-item">PHP</span>
+                    <span class="tech-separator">✳</span>
+                    <span class="tech-item">MySQL</span>
+                    <span class="tech-separator">✳</span>
+                    <span class="tech-item">Git</span>
+                    <span class="tech-separator">✳</span>
+                    <span class="tech-item">Flutter</span>
+                    <span class="tech-separator">✳</span>
+
+                </div>
+            </div>
+
+        </section>
+                
+        <!-- ================= TECNOLOGIAS / SOLUÇÕES ================= -->
+        <section class="tech-showcase section-container reveal" id="tecnologias">
+
+            <div class="tech-showcase-heading">
+
+                <div class="tech-showcase-title">
+                    <span class="section-label">
+                        <span class="label-square"></span>
+                        TECNOLOGIAS & SOLUÇÕES
+                    </span>
+
+                    <h2>
+                        Tecnologia é o meio.<br>
+                        <span class="accent">Solução é o objetivo.</span>
+                    </h2>
+                </div>
+
+                <p class="tech-showcase-description">
+                    Cada ferramenta tem um papel na construção de aplicações
+                    funcionais, conectadas e pensadas para resolver problemas reais.
+                </p>
+
+            </div>
+
+
+            <!-- CABEÇALHO DA TABELA -->
+            <div class="tech-table">
+
+                <div class="tech-table-header">
+                    <span>TECNOLOGIA</span>
+                    <span>COMO ELA GERA VALOR</span>
+                    <span></span>
+                </div>
+
+
+                <!-- PHP -->
+                <div class="tech-row">
+
+                    <div class="tech-identity">
+                        <div class="tech-icon">
+                            <i data-lucide="code-2"></i>
+                        </div>
+
+                        <div class="tech-name">
+                            <h3>PHP</h3>
+                            <span>BACKEND DEVELOPMENT</span>
+                        </div>
+                    </div>
+
+                    <div class="tech-explanation">
+                        <p>
+                            Gerencia regras, processamentos e operações
+                            que acontecem por trás de uma aplicação.
+                        </p>
+
+                        <span class="tech-benefit">
+                            <i data-lucide="arrow-right"></i>
+                            Sistemas funcionais e automatizados
+                        </span>
+                    </div>
+
+                    <div class="tech-row-action">
+                        <i data-lucide="arrow-up-right"></i>
+                    </div>
+
+                </div>
+
+
+                <!-- MYSQL -->
+                <div class="tech-row">
+
+                    <div class="tech-identity">
+                        <div class="tech-icon">
+                            <i data-lucide="database"></i>
+                        </div>
+
+                        <div class="tech-name">
+                            <h3>MySQL</h3>
+                            <span>DATABASE</span>
+                        </div>
+                    </div>
+
+                    <div class="tech-explanation">
+                        <p>
+                            Organiza e armazena informações, permitindo
+                            consultar dados de maneira estruturada.
+                        </p>
+
+                        <span class="tech-benefit">
+                            <i data-lucide="arrow-right"></i>
+                            Dados centralizados e acessíveis
+                        </span>
+                    </div>
+
+                    <div class="tech-row-action">
+                        <i data-lucide="arrow-up-right"></i>
+                    </div>
+
+                </div>
+
+
+                <!-- JAVASCRIPT -->
+                <div class="tech-row">
+
+                    <div class="tech-identity">
+                        <div class="tech-icon">
+                            <i data-lucide="zap"></i>
+                        </div>
+
+                        <div class="tech-name">
+                            <h3>JavaScript</h3>
+                            <span>INTERACTIVITY</span>
+                        </div>
+                    </div>
+
+                    <div class="tech-explanation">
+                        <p>
+                            Torna aplicações interativas, respondendo
+                            às ações dos usuários e atualizando informações.
+                        </p>
+
+                        <span class="tech-benefit">
+                            <i data-lucide="arrow-right"></i>
+                            Experiências dinâmicas em tempo real
+                        </span>
+                    </div>
+
+                    <div class="tech-row-action">
+                        <i data-lucide="arrow-up-right"></i>
+                    </div>
+
+                </div>
+
+
+                <!-- HTML & CSS -->
+                <div class="tech-row">
+
+                    <div class="tech-identity">
+                        <div class="tech-icon">
+                            <i data-lucide="layout"></i>
+                        </div>
+
+                        <div class="tech-name">
+                            <h3>HTML & CSS</h3>
+                            <span>FRONTEND DEVELOPMENT</span>
+                        </div>
+                    </div>
+
+                    <div class="tech-explanation">
+                        <p>
+                            Estruturam e estilizam interfaces, tornando
+                            informações claras e acessíveis ao usuário.
+                        </p>
+
+                        <span class="tech-benefit">
+                            <i data-lucide="arrow-right"></i>
+                            Interfaces intuitivas e responsivas
+                        </span>
+                    </div>
+
+                    <div class="tech-row-action">
+                        <i data-lucide="arrow-up-right"></i>
+                    </div>
+
+                </div>
+
+
+                <!-- API -->
+                <div class="tech-row">
+
+                    <div class="tech-identity">
+                        <div class="tech-icon">
+                            <i data-lucide="plug"></i>
+                        </div>
+
+                        <div class="tech-name">
+                            <h3>APIs</h3>
+                            <span>INTEGRATION</span>
+                        </div>
+                    </div>
+
+                    <div class="tech-explanation">
+                        <p>
+                            Permitem que diferentes aplicações troquem
+                            informações e trabalhem de forma integrada.
+                        </p>
+
+                        <span class="tech-benefit">
+                            <i data-lucide="arrow-right"></i>
+                            Conectividade entre sistemas
+                        </span>
+                    </div>
+
+                    <div class="tech-row-action">
+                        <i data-lucide="arrow-up-right"></i>
+                    </div>
+
+                </div>
+
+
+                <!-- IOT / ESP32 -->
+                <div class="tech-row">
+
+                    <div class="tech-identity">
+                        <div class="tech-icon">
+                            <i data-lucide="cpu"></i>
+                        </div>
+
+                        <div class="tech-name">
+                            <h3>ESP32 / IoT</h3>
+                            <span>SMART DEVICES</span>
+                        </div>
+                    </div>
+
+                    <div class="tech-explanation">
+                        <p>
+                            Conectam equipamentos físicos à internet,
+                            coletando e transmitindo dados do ambiente.
+                        </p>
+
+                        <span class="tech-benefit">
+                            <i data-lucide="arrow-right"></i>
+                            Monitoramento e automação inteligente
+                        </span>
+                    </div>
+
+                    <div class="tech-row-action">
+                        <i data-lucide="arrow-up-right"></i>
+                    </div>
+
+                </div>
+
+                <!-- FLUTTER -->
+                <div class="tech-row">
+
+                    <div class="tech-identity">
+                        <div class="tech-icon">
+                            <i data-lucide="smartphone"></i>
+                        </div>
+
+                        <div class="tech-name">
+                            <h3>Flutter</h3>
+                            <span>MOBILE DEVELOPMENT</span>
+                        </div>
+                    </div>
+
+                    <div class="tech-explanation">
+                        <p>
+                            Desenvolve aplicativos móveis com uma base
+                            de código para diferentes plataformas.
+                        </p>
+
+                        <span class="tech-benefit">
+                            <i data-lucide="arrow-right"></i>
+                            Aplicações mobile multiplataforma
+                        </span>
+                    </div>
+
+                    <div class="tech-row-action">
+                        <i data-lucide="arrow-up-right"></i>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="tech-showcase-footer">
+                <span class="tech-footer-symbol">&lt;/&gt;</span>
+
+                <p>
+                    Ferramentas diferentes. Um único propósito:
+                    <strong>resolver problemas.</strong>
+                </p>
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= SOBRE / RESUMO ================= -->
+        <section class="about-preview section-container reveal">
+
+            <div class="section-heading">
+                <span class="section-label">
+                    <span class="label-square"></span>
+                    UM POUCO SOBRE MIM
+                </span>
+
+                <h2>
+                    Curiosidade que se transforma em código.
+                </h2>
+            </div>
+
+            <div class="about-preview-content">
+
+                <!-- ESCREVA UM PEQUENO TEXTO SOBRE SUA TRAJETÓRIA -->
+                <p>
+                    Acredito que a tecnologia é uma ferramenta capaz
+                    de transformar ideias em experiências reais.
+                    Minha jornada na programação é movida pela
+                    curiosidade, pelo aprendizado contínuo e pela
+                    vontade de construir soluções que façam a diferença.
+                </p>
+
+                <a href="sobre.html" class="text-link">
+                    Saiba mais sobre mim
+                    <i data-lucide="arrow-right"></i>
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PROJETOS EM DESTAQUE ================= -->
+        <section class="featured-projects section-container reveal">
+
+            <div class="projects-heading">
+
+                <div class="section-heading">
+                    <span class="section-label">
+                        <span class="label-square"></span>
+                        PORTFÓLIO
+                    </span>
+
+                    <h2>Projetos selecionados<span class="accent">.</span></h2>
+                </div>
+
+                <a href="projetos.html" class="text-link desktop-link">
+                    Todos os projetos
+                    <i data-lucide="arrow-up-right"></i>
+                </a>
+
+            </div>
+
+
+            <div class="project-grid">
+
+                <!-- PROJETO 01 -->
+                <a href="projetos.html" class="project-card">
+
+                    <div class="project-image project-image-1">
+                        <div class="project-mockup mockup-hydro">
+                            <span class="mockup-label">PROJECT_01</span>
+                            <div class="mockup-content">
+                                <div class="mockup-sidebar"></div>
+                                <div class="mockup-panels">
+                                    <div class="mockup-panel"></div>
+                                    <div class="mockup-panel"></div>
+                                    <div class="mockup-chart"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-overlay">
+                            <span>Visualizar projeto</span>
+                            <i data-lucide="arrow-up-right"></i>
+                        </div>
+                    </div>
+
+                    <div class="project-info">
+                        <div>
+                            <!-- SUBSTITUA PELO NOME DO PROJETO -->
+                            <h3>Veja HydroFlow!</h3>
+                            <p>Sistema de Irrigação Automatizado!.</p>
+                        </div>
+
+                        <span class="project-arrow">
+                            <i data-lucide="arrow-up-right"></i>
+                        </span>
+                    </div>
+
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                </a>
+
+
+                <!-- PROJETO 02 -->
+                <a href="projetos.html" class="project-card">
+
+                    <div class="project-image project-image-2">
+                        <div class="project-mockup mockup-secondary">
+                            <span class="mockup-label">PROJECT_02</span>
+                            <div class="secondary-screen">
+                                <div class="secondary-circle"></div>
+                                <div class="secondary-lines">
+                                    <span></span><span></span><span></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-overlay">
+                            <span>Visualizar projeto</span>
+                            <i data-lucide="arrow-up-right"></i>
+                        </div>
+                    </div>
+
+                    <div class="project-info">
+                        <div>
+                            <h3>Manutenção Via R.A</h3>
+                            <p>Manutenção Industrial utilizando Realidade Aumentada.</p>
+                        </div>
+
+                        <span class="project-arrow">
+                            <i data-lucide="arrow-up-right"></i>
+                        </span>
+                    </div>
+
+                    <div class="project-tags">
+                        <span>PHP</span>
+                        <span>MySQL</span>
+                        <span>API</span>
+                    </div>
+
+                </a>
+
+            </div>
+
+            <a href="projetos.html" class="text-link mobile-link">
+                Todos os projetos
+                <i data-lucide="arrow-up-right"></i>
+            </a>
+
+        </section>
+
+
+        <!-- ================= CHAMADA FINAL ================= -->
+        <section class="contact-banner section-container reveal">
+
+            <div class="contact-banner-content">
+
+                <span class="section-label">
+                    <span class="label-square"></span>
+                    PRÓXIMO PASSO
+                </span>
+
+                <h2>
+                    Vamos construir algo<br>
+                    <span class="accent">incrível juntos?</span>
+                </h2>
+
+                <p>
+                    <!-- PERSONALIZE SUA MENSAGEM FINAL -->
+                    Estou sempre aberto a novas ideias, conexões
+                    e oportunidades.
+                </p>
+
+                <a href="contato.html" class="btn-primary">
+                    Entre em contato
+                    <i data-lucide="arrow-up-right"></i>
+                </a>
+
+            </div>
+
+            <div class="contact-decoration">
+                <span>&lt;</span>
+                <span>/</span>
+                <span>&gt;</span>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+
+        <div class="footer-container">
+
+            <a href="index.html" class="logo">
+                <span class="logo-symbol">&lt;/&gt;</span>
+                <span>Felipe Ribeiro<span class="accent">.</span></span>
+            </a>
+
+            <p>
+                Desenvolvido com criatividade, café e código.
+            </p>
+
+            <span class="footer-copy">
+                © <span id="currentYear"></span> Felipe Donizetti Ribeiro. Todos os direitos reservados.
+            </span>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="js/main.js"></script>
+
+</body>
+</html>

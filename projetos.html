@@ -1,0 +1,888 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO -->
+    <title>Projetos | Felipe Ribeiro</title>
+    <meta name="description" content="Conheça os projetos desenvolvidos por Felipe Ribeiro na área de tecnologia e desenvolvimento.">
+
+    <!-- FONTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- MANTENHA O MESMO LINK DE FONTES DA INDEX -->
+
+    <!-- LUCIDE -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- CSS GLOBAL -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- CSS PROJETOS -->
+    <link rel="stylesheet" href="css/projetos.css">
+</head>
+
+<body>
+
+    <!-- EFEITO DE LUZ DO MOUSE -->
+    <div class="mouse-glow"></div>
+
+
+    <!-- =====================================================
+         NAVBAR
+    ====================================================== -->
+
+    <header class="navbar">
+        <div class="nav-container">
+
+            <a href="index.html" class="logo">
+                <span class="logo-symbol">&lt;/&gt;</span>
+                <span>Felipe Ribeiro<span class="accent">.</span></span>
+            </a>
+
+            <nav class="nav-links" id="navLinks">
+                <a href="index.html" class="nav-link">Início</a>
+                <a href="projetos.html" class="nav-link active">Projetos</a>
+                <a href="sobre.html" class="nav-link">Sobre</a>
+                <a href="contato.html" class="nav-link">Contato</a>
+            </nav>
+
+            <a href="contato.html" class="nav-cta">
+                Vamos conversar
+                <i data-lucide="arrow-up-right"></i>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+                <i data-lucide="menu"></i>
+            </button>
+
+        </div>
+    </header>
+
+
+    <!-- =====================================================
+         MAIN
+    ====================================================== -->
+
+    <main class="projects-page section-container">
+
+
+        <!-- =================================================
+             HERO
+        ================================================== -->
+
+        <section class="projects-hero reveal">
+
+            <span class="section-label">
+                <span class="label-square"></span>
+                PORTFÓLIO / PROJETOS
+            </span>
+
+            <h1>
+                Ideias que saíram<br>
+                do papel e viraram<br>
+                <span class="accent">projetos.</span>
+            </h1>
+
+            <p class="projects-hero-description">
+                Uma coleção de projetos, experimentos e soluções desenvolvidas
+                durante minha jornada na tecnologia. Cada um representa uma
+                oportunidade de aprender, construir e evoluir.
+            </p>
+
+            <div class="projects-hero-footer">
+
+                <span>EXPLORAR PROJETOS</span>
+
+                <a href="#project-list" class="scroll-indicator">
+                    <i data-lucide="arrow-down"></i>
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             PROJECT STATS
+        ================================================== -->
+
+        <section class="projects-stats reveal">
+
+            <div class="project-stat">
+
+                <span class="project-stat-number" id="totalProjects">
+                    03
+                </span>
+
+                <span class="project-stat-label">
+                    PROJETOS APRESENTADOS
+                </span>
+
+            </div>
+
+            <div class="project-stat">
+
+                <span class="project-stat-number">
+                    <i data-lucide="code-2"></i>
+                </span>
+
+                <span class="project-stat-label">
+                    DESENVOLVIMENTO
+                </span>
+
+            </div>
+
+            <div class="project-stat">
+
+                <span class="project-stat-number">
+                    ∞
+                </span>
+
+                <span class="project-stat-label">
+                    IDEIAS EM CONSTRUÇÃO
+                </span>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             PROJECT FILTERS
+        ================================================== -->
+
+        <section class="projects-section" id="project-list">
+
+            <div class="projects-section-header reveal">
+
+                <div>
+
+                    <span class="about-section-tag">
+                        01 / GALERIA
+                    </span>
+
+                    <h2>
+                        Projetos em <span class="accent">destaque.</span>
+                    </h2>
+
+                </div>
+
+                <span class="projects-count-label">
+                    SELEÇÃO DE TRABALHOS
+                </span>
+
+            </div>
+
+
+            <!-- FILTROS -->
+
+            <div class="project-filters reveal">
+
+                <button class="filter-btn active" data-filter="all">
+                    Todos
+                    <span>03</span>
+                </button>
+
+                <button class="filter-btn" data-filter="web">
+                    Web
+                </button>
+
+                <button class="filter-btn" data-filter="iot">
+                    IoT
+                </button>
+
+                <button class="filter-btn" data-filter="mobile">
+                    Mobile
+                </button>
+
+            </div>
+
+
+            <!-- =================================================
+                 GRID DOS PROJETOS
+            ================================================== -->
+
+            <div class="projects-grid">
+
+
+
+                <!-- =====================================================
+                    PROJETO: AR MAINTENANCE
+                ===================================================== -->
+
+                <article class="project-card" data-category="web iot">
+
+                    <div class="project-visual ar-project-visual">
+
+                        <div class="ar-card-decoration">
+                            <i data-lucide="scan"></i>
+                            <span>INTERACTIVE EXPERIENCE</span>
+                        </div>
+
+                        <div class="ar-card-model">
+                            <i data-lucide="box"></i>
+                            <span>3D MODEL</span>
+                        </div>
+
+                        <div class="ar-card-bottom">
+                            <span>INDUSTRIAL AR</span>
+                            <span class="ar-pulse-dot"></span>
+                        </div>
+
+                        <div class="project-overlay">
+                            <span class="project-overlay-label">
+                                Demonstração Interativa
+                            </span>
+
+                            <button
+                                class="project-open-btn"
+                                type="button"
+                                data-open-ar
+                                aria-label="Explorar demonstração"
+                            >
+                                <i data-lucide="arrow-up-right"></i>
+                            </button>
+                        </div>
+
+                    </div>
+
+                    <div class="project-info">
+
+                        <div class="project-info-top">
+                            <span class="project-number">04 / PROJETO</span>
+                            <span class="project-type">IOT · AR · 3D</span>
+                        </div>
+
+                        <h3>AR Maintenance</h3>
+
+                        <p>
+                            Experiência de identificação de máquinas por QR Code,
+                            visualização tridimensional de equipamentos e acesso
+                            a informações técnicas e checklists de manutenção.
+                        </p>
+
+                        <div class="project-techs">
+                            <span>Flutter</span>
+                            <span>QR Code</span>
+                            <span>3D</span>
+                            <span>IoT</span>
+                            <span>Three.js</span>
+                        </div>
+
+                        <div class="project-links">
+                            <button
+                                class="project-link ar-demo-link"
+                                type="button"
+                                data-open-ar
+                            >
+                                <i data-lucide="scan"></i>
+                                Explorar demonstração
+                            </button>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- =================================================
+                     PROJETO 01 — HYDROFLOW
+                ================================================== -->
+
+                <article class="project-card reveal" data-category="web iot">
+
+                    <div class="project-visual hydroflow-visual">
+
+                        <!--
+                            CAPA DO PROJETO
+
+                            Para usar uma imagem própria:
+
+                            1. Coloque-a em assets/img/projects/
+                            2. Descomente o <img> abaixo.
+                            3. A imagem será usada como capa do card.
+
+                        -->
+
+                        <!--
+                        <img
+                            src="assets/img/projects/hydroflow.jpg"
+                            alt="Interface do projeto HydroFlow"
+                            class="project-cover"
+                        >
+                        -->
+
+
+                        <!-- CAPA TEMPORÁRIA -->
+
+                        <div class="project-cover-placeholder">
+
+                            <div class="hydro-mockup">
+
+                                <div class="mockup-top">
+                                    <span class="mockup-dot"></span>
+                                    <span class="mockup-dot"></span>
+                                    <span class="mockup-dot"></span>
+                                    <span>HYDROFLOW</span>
+                                </div>
+
+                                <div class="mockup-content">
+
+                                    <div class="mockup-sidebar"></div>
+
+                                    <div class="mockup-dashboard">
+
+                                        <div class="mockup-kpis">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+
+                                        <div class="mockup-chart">
+
+                                            <svg viewBox="0 0 300 120"
+                                                 preserveAspectRatio="none">
+
+                                                <path
+                                                    d="M0 95 C25 80, 40 88, 60 65 S95 80, 120 40 S155 55, 180 30 S220 45, 245 18 S275 25, 300 5"
+                                                    fill="none"
+                                                    stroke="#A3E635"
+                                                    stroke-width="3"
+                                                />
+
+                                                <path
+                                                    d="M0 95 C25 80, 40 88, 60 65 S95 80, 120 40 S155 55, 180 30 S220 45, 245 18 S275 25, 300 5 L300 120 L0 120 Z"
+                                                    fill="rgba(163,230,53,0.08)"
+                                                />
+
+                                            </svg>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- OVERLAY -->
+
+                        <div class="project-overlay">
+
+                            <span class="project-overlay-label">
+                                PROJETO EM DESTAQUE
+                            </span>
+
+                            <a href="#" class="project-open-btn"
+                               aria-label="Ver projeto HydroFlow">
+                                <i data-lucide="arrow-up-right"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- INFORMAÇÕES -->
+
+                    <div class="project-info">
+
+                        <div class="project-info-top">
+
+                            <span class="project-number">01</span>
+
+                            <span class="project-type">
+                                WEB / IoT
+                            </span>
+
+                        </div>
+
+                        <h3>HydroFlow</h3>
+
+                        <p>
+                            Sistema de irrigação inteligente que utiliza
+                            sensores para monitoramento das condições do solo
+                            e automatização do processo de irrigação.
+                        </p>
+
+                        <div class="project-techs">
+
+                            <span>PHP</span>
+                            <span>CodeIgniter</span>
+                            <span>MySQL</span>
+                            <span>ESP32</span>
+
+                        </div>
+
+                        <div class="project-links">
+
+                            <!-- SUBSTITUA PELO LINK REAL DO GITHUB -->
+
+                            <a href="#" target="_blank" rel="noopener noreferrer"
+                               class="project-link">
+
+                                GitHub
+                                <i data-lucide="github"></i>
+
+                            </a>
+
+                            <!-- CASO TENHA DEMONSTRAÇÃO ONLINE -->
+
+                            <a href="#" target="_blank" rel="noopener noreferrer"
+                               class="project-link project-link-demo">
+
+                                Demo
+                                <i data-lucide="external-link"></i>
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- =================================================
+                     PROJETO 02 — MANUTENÇÃO PREDITIVA
+                ================================================== -->
+
+                <article class="project-card reveal" data-category="iot">
+
+                    <div class="project-visual maintenance-visual">
+
+
+                        <!-- IMAGEM REAL OPCIONAL -->
+
+                        <!--
+                        <img
+                            src="assets/img/projects/manutencao.jpg"
+                            alt="Protótipo de monitoramento de máquinas"
+                            class="project-cover"
+                        >
+                        -->
+
+
+                        <!-- MOCKUP VISUAL -->
+
+                        <div class="maintenance-mockup">
+
+                            <div class="maintenance-header">
+
+                                <span>MONITORAMENTO</span>
+
+                                <span class="live-indicator">
+                                    <i></i>
+                                    LIVE
+                                </span>
+
+                            </div>
+
+
+                            <div class="machine-graphic">
+
+                                <div class="machine-ring ring-outer"></div>
+                                <div class="machine-ring ring-middle"></div>
+                                <div class="machine-ring ring-inner"></div>
+
+                                <i data-lucide="activity"></i>
+
+                            </div>
+
+
+                            <div class="machine-data">
+
+                                <div class="machine-data-item">
+
+                                    <span>TEMPERATURA</span>
+
+                                    <strong>
+                                        32.4<small>°C</small>
+                                    </strong>
+
+                                </div>
+
+                                <div class="machine-data-item">
+
+                                    <span>VIBRAÇÃO</span>
+
+                                    <strong>
+                                        0.82<small>g</small>
+                                    </strong>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="machine-wave">
+
+                                <svg viewBox="0 0 400 100"
+                                     preserveAspectRatio="none">
+
+                                    <path
+                                        d="M0 50 L20 50 L30 20 L45 80 L60 35 L75 65 L90 50 L120 50 L140 10 L155 90 L175 30 L190 70 L210 50 L240 50 L255 25 L270 75 L285 35 L300 65 L320 50 L350 50 L370 20 L385 80 L400 50"
+                                        fill="none"
+                                        stroke="#A3E635"
+                                        stroke-width="2"
+                                    />
+
+                                </svg>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="project-overlay">
+
+                            <span class="project-overlay-label">
+                                PROTÓTIPO IoT
+                            </span>
+
+                            <a href="#" class="project-open-btn"
+                               aria-label="Ver projeto de manutenção preditiva">
+                                <i data-lucide="arrow-up-right"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="project-info">
+
+                        <div class="project-info-top">
+
+                            <span class="project-number">02</span>
+
+                            <span class="project-type">
+                                IoT / EMBEDDED
+                            </span>
+
+                        </div>
+
+                        <h3>Monitoramento Inteligente</h3>
+
+                        <p>
+                            Protótipo voltado ao acompanhamento de
+                            condições de máquinas através de sensores,
+                            permitindo observar variáveis e identificar
+                            possíveis comportamentos anormais.
+                        </p>
+
+                        <div class="project-techs">
+
+                            <span>ESP32</span>
+                            <span>Arduino</span>
+                            <span>MPU6050</span>
+                            <span>DHT11</span>
+
+                        </div>
+
+                        <div class="project-links">
+
+                            <a href="#" target="_blank" rel="noopener noreferrer"
+                               class="project-link">
+
+                                GitHub
+                                <i data-lucide="github"></i>
+
+                            </a>
+
+                            <a href="#" target="_blank" rel="noopener noreferrer"
+                               class="project-link project-link-demo">
+
+                                Detalhes
+                                <i data-lucide="arrow-up-right"></i>
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- =================================================
+                     PROJETO 03 — PORTUQUEST
+                ================================================== -->
+
+                <article class="project-card reveal" data-category="web mobile">
+
+                    <div class="project-visual portuquest-visual">
+
+
+                        <!-- IMAGEM REAL OPCIONAL -->
+
+                        <!--
+                        <img
+                            src="assets/img/projects/portuquest.jpg"
+                            alt="Interface do PortuQuest"
+                            class="project-cover"
+                        >
+                        -->
+
+
+                        <!-- MOCKUP -->
+
+                        <div class="portuquest-mockup">
+
+                            <div class="pq-top">
+
+                                <span class="pq-logo">P.</span>
+
+                                <span class="pq-title">
+                                    PORTUQUEST
+                                </span>
+
+                                <i data-lucide="menu"></i>
+
+                            </div>
+
+
+                            <div class="pq-content">
+
+                                <span class="pq-subtitle">
+                                    APRENDA PORTUGUÊS
+                                </span>
+
+                                <h4>
+                                    Desafie<br>
+                                    seu conhecimento.
+                                </h4>
+
+                                <div class="pq-lesson">
+
+                                    <div class="pq-lesson-icon">
+                                        <i data-lucide="book-open"></i>
+                                    </div>
+
+                                    <div>
+                                        <span>LIÇÃO 01</span>
+                                        <strong>Realismo</strong>
+                                    </div>
+
+                                    <i data-lucide="arrow-right"></i>
+
+                                </div>
+
+                                <div class="pq-options">
+
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="project-overlay">
+
+                            <span class="project-overlay-label">
+                                APLICATIVO EDUCACIONAL
+                            </span>
+
+                            <a href="#" class="project-open-btn"
+                               aria-label="Ver projeto PortuQuest">
+                                <i data-lucide="arrow-up-right"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="project-info">
+
+                        <div class="project-info-top">
+
+                            <span class="project-number">03</span>
+
+                            <span class="project-type">
+                                MOBILE / EDUCAÇÃO
+                            </span>
+
+                        </div>
+
+                        <h3>PortuQuest</h3>
+
+                        <p>
+                            Aplicativo educacional desenvolvido para
+                            auxiliar no aprendizado da língua portuguesa
+                            através de atividades, conteúdos e desafios
+                            interativos.
+                        </p>
+
+                        <div class="project-techs">
+
+                            <span>Flutter</span>
+                            <span>Dart</span>
+                            <span>UI/UX</span>
+
+                        </div>
+
+                        <div class="project-links">
+
+                            <a href="#" target="_blank" rel="noopener noreferrer"
+                               class="project-link">
+
+                                GitHub
+                                <i data-lucide="github"></i>
+
+                            </a>
+
+                            <a href="#" target="_blank" rel="noopener noreferrer"
+                               class="project-link project-link-demo">
+
+                                Detalhes
+                                <i data-lucide="arrow-up-right"></i>
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- =================================================
+                     TEMPLATE PARA NOVOS PROJETOS
+                ================================================== -->
+
+                <!--
+
+                COPIE UM project-card COMPLETO PARA ADICIONAR
+                NOVOS PROJETOS.
+
+                Altere:
+                - data-category
+                - número do projeto
+                - capa
+                - nome
+                - descrição
+                - tecnologias
+                - links
+
+                Exemplo de categorias:
+                data-category="web"
+                data-category="iot"
+                data-category="mobile"
+                data-category="web mobile"
+
+                -->
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             CTA FINAL
+        ================================================== -->
+
+        <section class="projects-cta reveal">
+
+            <span class="about-section-tag">
+                02 / PRÓXIMO PROJETO
+            </span>
+
+            <h2>
+                Toda ideia começa<br>
+                com uma <span class="accent">conversa.</span>
+            </h2>
+
+            <p>
+                Tem uma ideia, proposta ou oportunidade?
+                Estou aberto a conhecer novos desafios.
+            </p>
+
+            <a href="contato.html" class="about-contact-link">
+
+                Vamos conversar
+
+                <i data-lucide="arrow-up-right"></i>
+
+            </a>
+
+        </section>
+
+    </main>
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer class="footer">
+
+        <div class="footer-content">
+
+            <a href="index.html" class="logo">
+                <span class="logo-symbol">&lt;/&gt;</span>
+                <span>Felipe Ribeiro<span class="accent">.</span></span>
+            </a>
+
+            <p>Desenvolvido com propósito.</p>
+
+            <span class="footer-copy">
+                &copy; <span id="currentYear"></span> Felipe Ribeiro.
+                Todos os direitos reservados.
+            </span>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="js/main.js"></script>
+
+    <!-- SCRIPT DOS FILTROS -->
+    <script src="js/projetos.js"></script>
+
+    <!-- ÍCONES -->
+    <script>
+        lucide.createIcons();
+    </script>
+
+
+    <!-- SweetAlert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- Lucide -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Three.js -->
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+            "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
+        }
+    }
+    </script>
+
+    <!-- Scripts do site -->
+    <script src="js/main.js"></script>
+
+    <!-- Demonstração do projeto AR -->
+    <script type="module" src="js/ar-demo.js"></script>
+    </body>
+    </html>
+
+</body>
+</html>
